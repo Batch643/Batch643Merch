@@ -62,6 +62,10 @@ public class Reviews {
 		this.reviewmessage = reviewmessage;
 	}
 	
+	@Override
+	public String toString() {
+		return "Reviews [reviewid=" + reviewid + ", itemid=" + itemid + ", userid=" + userid + ", reviewmessage="
+				+ reviewmessage + "]";
+	}
 	
-
 }
